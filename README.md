@@ -1,121 +1,70 @@
-# 01 HTML CSS Git: Code Refactor
+# <01 HTML CSS Git: Code Refactor>
 
-## Your Task
- 
-**Note**: Be sure to review the [Challenge Guide](./Challenge-Guide.md) and the [Good README Guide](./Good-README-Guide.md) before you start working on this assignment!
+## Description
 
-This week your challenge is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's challenge involves a very important aspect of web development: **accessibility**. 
- 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
- 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
- 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
- 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
+My task was to complete an on-the-job ticket on the html code for challenge-1. I was give HTML code to adapt and make this more accessible using **accessibility** the exisiting code needed refactoring to make sure that coding  conventions were up to date and met legal acessibility requirements.
 
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+I did not build the current project as it was a ticket task and the aims of the project were to understand how to refactor **accessibility** this enabled me to look at the semantics of the written elements and change them to concise descriptive code.
 
-Are you ready to jump in? Here are this week's challenge requirements:
+I learned how the structure of the elements worked and familiarised myself with the order and learned that by using naming conventions it made the code easier to read for example I changed the navigation bar from **div** to **nav**.
+I gained a better understanding of the layout of the web page by placing **section** code and replacing the **div**. I also labelled the **header** and **footer** areas in my HTML document.
 
-### User Story
+I had a couple of issues when changing the div tags when I added an **alt** tag to the main boardroom image called **.hero**. I had to remove the alt text as it removed the image and I was unsure how to correct this. The second issue that I had was that when I removed the span code it moved the text and I was unsure how to change this. I opted for adding the **em** feature to italicise the text and make the **SEO** text stand out from the title.
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+I added alt tags to the other image elements and used text that reflected the nature of the image.
 
-### Acceptance Criteria
+After completing the HTML mark up I went into the CSS code and added comments. I could only see one change that was physically needed in the HTML code and changed the **div** for the navigation to **nav**.
 
-Your website must meet accessibility standards. You can achieve this completing the following:
+In the comments I added descriptions of how each part was supposed to work and some comments on the changes that I made to the Mark Up language.
 
-* Semantic HTML elements can be found throughout the source code
-* HTML elements follow a logical structure independent of styling and positioning
-* Image and icon elements contain accessible `alt` attributes
-* Heading attributes fall in sequential order
-* Title elements contain a concise, descriptive title
+## Table of Contents (Optional)
 
-### Resources:
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
-* [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-### Mock-Up
+## Installation
 
-The following image shows the web application's appearance and functionality:
+My code does not currently need an install and can be viewed directly through the URL.
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](Assets/01-html-css-git-challenge-demo.png)
+## Usage
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+Provide instructions and examples for use. Include screenshots as needed.
 
-### Getting Started
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
+![alt text](assets/images/screenshot.png)
 
-1. Create a new repository on your GitHub account and clone it to your computer.
+![alt text](/assets/index.html/image.png) **needs fixing**
+![alt text](first-Challenge/Assets/first-Challenge\Assets\01-html-css-git-challenge-demo.png) **this one too**
 
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
+## Credits
 
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+There were no collaborators in this task.
 
-4. On the Settings page, scroll down to the GitHub Pages section. Then, in the section labeled Source, select the `main` branch as your source.
+I used a couple of websites to help me identify the semantic elements https://www.w3schools.com/html/html5_semantic_elements.asp and https://accessibility.psu.edu/images/imageshtml/#:~:text=ALT%20attribute%20(HTML)%20%E2%80%93%20In,reference%20to%20the%20ALT%20attribute. .
 
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
+I followed the bootcamp zoom tutorial recording on how to set up my inital project folders and push them onto git using the terminal. 
+I used the bootcamp precourse work video tutorial on how to add and push content onto git.
 
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
+## License
 
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
-
-Be sure to add, commit, and push your work to see the most up-to-date version of your app!
-
-### Requirements
-
-This challenge is assessed on the following criteria: 
-
-#### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-#### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-#### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the challenge instructions.
-
-#### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-### Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
+I have chosen a MIT license for this project
 ---
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+## Badges
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## How to Contribute
+
+N/A
+
+## Tests
+
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
